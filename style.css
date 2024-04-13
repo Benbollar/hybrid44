@@ -1,0 +1,76 @@
+@media(min-width: 1200px){
+    .mobile{
+        display: none;
+    }
+}
+
+
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.start{
+    width: 100%;
+    text-align: center;
+    line-height: 0%;
+    margin-bottom: 5%;
+}
+
+.next{
+    border-top: solid 2px black;
+    border-bottom: solid 1px black;
+    margin-bottom: 1%;
+}
+
+.next ul{
+    display: flex;
+}
+
+.next ul li{
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.main{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+}
+.main1{
+    width: 27%;
+}
+.main2{
+    width: 27%;
+}
+.main3{
+    width: 27%;
+}
+
+.text{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .desktop{
+        display: none;
+    }
+    
+}
+.pix{
+    display: block;
+    
+}
+.last{
+    display: block;
+    
+}
+.title{
+    background-image: url(images/kp\ repair.jpg);
+    background-size: cover;
+    
+}
